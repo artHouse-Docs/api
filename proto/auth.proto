@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+option go_package = "./dto";
+
 message JWTToken {
     string access_token = 1;
     string refresh_token = 2;
